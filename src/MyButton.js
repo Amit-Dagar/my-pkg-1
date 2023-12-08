@@ -1,6 +1,6 @@
 import React from "react";
 
-const Button = ({ text, onClick }) => {
+const MyButton = ({ text, onClick }) => {
   return (
     <button class="btn btn-ghost-active" onClick={onClick}>
       {text}
@@ -8,4 +8,4 @@ const Button = ({ text, onClick }) => {
   );
 };
 
-export default Button;
+export default MyButton;
