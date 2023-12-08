@@ -1,3 +1,3 @@
 // index.js
 import React from "react";
-export { default as Button } from "./Button";
+export { default as Btn } from "./Button";
