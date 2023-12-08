@@ -1,7 +1,4 @@
-// src/Button.js
-import React from "react";
-
-const Button = ({ text, onClick, className }) => {
+const Button = ({ text, onClick }) => {
   return (
     <button className="btn btn-ghost" onClick={onClick}>
       {text}
