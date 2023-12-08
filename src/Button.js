@@ -1,9 +1,9 @@
 // src/Button.js
 import React from "react";
 
-const Button = ({ text, onClick }) => {
+const Button = ({ text, onClick, className }) => {
   return (
-    <button className="btn btn-active btn-ghost" onClick={onClick}>
+    <button className={className} onClick={onClick}>
       {text}
     </button>
   );
