@@ -1,6 +1,12 @@
 const Button = ({ text, onClick }) => {
   return (
-    <button className="btn btn-ghost" onClick={onClick}>
+    <button
+      style={{
+        background: "black",
+        color: "white",
+      }}
+      onClick={onClick}
+    >
       {text}
     </button>
   );
