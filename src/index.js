@@ -1,5 +1,2 @@
-import Button from "./Button";
-
-module.exports = {
-  Button,
-};
+// index.js
+export { default as Button } from "./Button";
