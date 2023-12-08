@@ -8,9 +8,10 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 var MyButton = function MyButton(_ref) {
   var text = _ref.text,
-    onClick = _ref.onClick;
+    onClick = _ref.onClick,
+    className = _ref.className;
   return /*#__PURE__*/_react["default"].createElement("button", {
-    "class": "btn btn-ghost-active",
+    className: className,
     onClick: onClick
   }, text);
 };
