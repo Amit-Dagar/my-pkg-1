@@ -12,6 +12,7 @@ var Button = function Button(_ref) {
   var text = _ref.text,
     onClick = _ref.onClick;
   return /*#__PURE__*/_react["default"].createElement("button", {
+    className: "btn btn-active btn-ghost",
     onClick: onClick
   }, text);
 };

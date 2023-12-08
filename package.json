@@ -1,6 +1,6 @@
 {
   "name": "amit-test-1",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
@@ -18,6 +18,8 @@
     "@babel/core": "^7.23.5",
     "@babel/preset-env": "^7.23.5",
     "@babel/preset-react": "^7.23.3",
-    "daisyui": "^4.4.19"
+    "daisyui": "^4.4.19",
+    "postcss": "^8",
+    "tailwindcss": "^3"
   }
 }
