@@ -15,6 +15,6 @@ var Button = function Button(_ref) {
   return /*#__PURE__*/_react["default"].createElement("button", {
     className: className,
     onClick: onClick
-  }, text);
+  }, console.log(text, className), text);
 };
 var _default = exports["default"] = Button;
