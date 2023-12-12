@@ -9,6 +9,5 @@ Object.defineProperty(exports, "MyButton", {
     return _MyButton["default"];
   }
 });
-var _react = _interopRequireDefault(require("react"));
 var _MyButton = _interopRequireDefault(require("./MyButton"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
